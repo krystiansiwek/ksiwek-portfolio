@@ -1,0 +1,19 @@
+.mobile-only {
+  @media (orientation: landscape) {
+    display: none !important;
+  }
+}
+
+.desktop-only {
+  @media (orientation: portrait) {
+    display: none !important;
+  }
+}
+
+h1 {
+  font-size: calc(2rem + 3.5vw);
+}
+
+h2 {
+  font-size: calc(2rem + 1vw);
+}
