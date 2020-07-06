@@ -84,7 +84,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .hamburger {
   position: absolute;
   margin: 20px 0;
@@ -115,7 +115,10 @@ export default {
 }
 
 .tech-icon {
-  margin: 75px;
-  z-index: -1;
+  margin: 5px;
+
+  @media (min-width: 475px) {
+    margin: 50px;
+  }
 }
 </style>

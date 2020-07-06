@@ -58,6 +58,7 @@ export default {
   justify-content: center;
 
   transition: transform 0.3s 0.1s ease-in-out;
+  z-index: 1;
 }
 
 .mobile-sidebar__item {

@@ -44,9 +44,17 @@ export default {
 .icon {
   transition: all 0.1s ease-in-out;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  @media (max-width: 475px) {
+    transform: scale(0.75);
+  }
 }
 
 .icon:hover {
   transform: scale(1.25);
+
+  @media (max-width: 475px) {
+    transform: scale(1);
+  }
 }
 </style>

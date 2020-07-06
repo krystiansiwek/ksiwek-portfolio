@@ -15,6 +15,7 @@
         <icon
           class="tech-icon"
           v-for="icon in icons"
+          :key="icon.src"
           :image="icon.src"
           :href="icon.href"
         ></icon>
@@ -98,7 +99,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .hamburger {
   position: absolute;
   margin: 20px 0;
@@ -129,6 +130,10 @@ export default {
 }
 
 .tech-icon {
-  margin: 20px;
+  margin: 5px;
+
+  @media (min-width: 475px) {
+    margin: 20px;
+  }
 }
 </style>
