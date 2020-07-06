@@ -11,7 +11,7 @@
     <div class="home">
       <Navbar :items="items" class="desktop-only" />
       <h1 class="home__name">KRYSTIAN SIWEK</h1>
-      <h2 class="home__small-header">frontend developer</h2>
+      <h2 class="home__small-header">fullstack developer</h2>
     </div>
   </Layout>
 </template>
